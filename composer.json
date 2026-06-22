@@ -6,13 +6,6 @@
         "php": "^8.2",
         "mantle-framework/view": "^1.0"
     },
-    "extra": {
-        "wordpress-autoloader": {
-            "autoload": {
-                "Mantle\\Framework_Views": "./"
-            }
-        }
-    },
     "license": "GPL-2.0-or-later",
     "authors": [
         {
