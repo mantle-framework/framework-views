@@ -3,15 +3,8 @@
     "description": "The Mantle Framework package for framework views.",
     "type": "library",
     "require": {
-        "php": "^8.2",
+        "php": "^8.3",
         "mantle-framework/view": "^1.0"
-    },
-    "extra": {
-        "wordpress-autoloader": {
-            "autoload": {
-                "Mantle\\Framework_Views": "./"
-            }
-        }
     },
     "license": "GPL-2.0-or-later",
     "authors": [
@@ -27,6 +20,9 @@
     },
     "minimum-stability": "dev",
     "config": {
+        "allow-plugins": {
+            "alleyinteractive/composer-wordpress-autoloader": true
+        },
         "sort-packages": true
     }
 }
